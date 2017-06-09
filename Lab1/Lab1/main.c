@@ -20,7 +20,7 @@ void blink(char n) {
         ___WAIT between digits____
     }
     ___long wait between numbers___
-//
+//testing new branch. That's all.
 }
 
 //come back to type. Will probably pass back array.

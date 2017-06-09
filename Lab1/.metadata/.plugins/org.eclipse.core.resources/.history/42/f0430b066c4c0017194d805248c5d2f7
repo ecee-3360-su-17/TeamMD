@@ -1,0 +1,27 @@
+
+
+/**
+ * main.c
+ */
+int main(void)
+{
+	return 0;
+}
+
+void blink(int n) {
+
+
+}
+
+//come back to type. Will probably pass back array.
+ //Depends on blink impl.
+char morse_conversion(int n){
+    //takes in number, converts to array of bases.
+    char mod;
+    while(n != 0){
+        mod = n % 10;
+        //output.array[i] = mod;
+        n = (n-mod)/10;
+    }
+
+}

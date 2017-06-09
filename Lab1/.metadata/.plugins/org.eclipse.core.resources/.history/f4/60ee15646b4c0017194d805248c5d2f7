@@ -1,0 +1,20 @@
+
+
+/**
+ * main.c
+ */
+int main(void)
+{
+	return 0;
+}
+
+void blink(int n) {
+
+
+}
+
+int morse_conversion(){
+    //come back to type. Will probably pass back array.
+    //Depends on blink impl.
+
+}
