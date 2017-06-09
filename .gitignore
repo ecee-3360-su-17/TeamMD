@@ -1,3 +1,5 @@
-.metadata
-.jxbrowser-data
-
+#Hopefully these wild-cards catch everything
+.jxbrowser-data/*
+.metadata/.plugins/*
+.metadata/version.ini
+.metadata/.lock
