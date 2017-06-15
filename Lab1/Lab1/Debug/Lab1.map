@@ -1,46 +1,46 @@
 Archive member included to satisfy reference by file (symbol)
 
-/home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o)
+/home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-exit.o)
                               /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o (exit)
-/home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
-                              /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o) (_global_impure_ptr)
-/home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
+/home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-impure.o)
+                              /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-exit.o) (_global_impure_ptr)
+/home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-init.o)
                               /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o (__libc_init_array)
-/home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
+/home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-memset.o)
                               /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/crt0.o (memset)
-/home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
-                              /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o) (__call_exitprocs)
-/home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
-                              /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o) (atexit)
-/home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
-                              /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o) (__libc_fini_array)
-/home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
-                              /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o) (__retarget_lock_acquire_recursive)
-/home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
-                              /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o) (__register_exitproc)
+/home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-__call_atexit.o)
+                              /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-exit.o) (__call_exitprocs)
+/home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-atexit.o)
+                              /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-__call_atexit.o) (atexit)
+/home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-fini.o)
+                              /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-__call_atexit.o) (__libc_fini_array)
+/home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-lock.o)
+                              /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-__call_atexit.o) (__retarget_lock_acquire_recursive)
+/home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-__atexit.o)
+                              /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-atexit.o) (__register_exitproc)
 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
-                              /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o) (_exit)
+                              /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-exit.o) (_exit)
 
 Allocating common symbols
 Common symbol       size              file
 
 __lock___atexit_recursive_mutex
-                    0x1               /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                    0x1               /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-lock.o)
 __lock___arc4random_mutex
-                    0x1               /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                    0x1               /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-lock.o)
 __lock___env_recursive_mutex
-                    0x1               /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                    0x1               /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-lock.o)
 __lock___sinit_recursive_mutex
-                    0x1               /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                    0x1               /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-lock.o)
 __lock___malloc_recursive_mutex
-                    0x1               /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                    0x1               /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-lock.o)
 __lock___at_quick_exit_mutex
-                    0x1               /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                    0x1               /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-lock.o)
 __lock___dd_hash_mutex
-                    0x1               /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
-__lock___tz_mutex   0x1               /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                    0x1               /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-lock.o)
+__lock___tz_mutex   0x1               /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-lock.o)
 __lock___sfp_recursive_mutex
-                    0x1               /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                    0x1               /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-lock.o)
 
 Memory Configuration
 
@@ -80,15 +80,15 @@ LOAD ./tm4c123gh6pge_startup_ccs_gcc.o
                 0x000000000000034c                fib
  .text          0x0000000000000370        0x0 ./main.o
  .text          0x0000000000000370        0x0 ./tm4c123gh6pge_startup_ccs_gcc.o
- .text          0x0000000000000370        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o)
- .text          0x0000000000000370        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
- .text          0x0000000000000370        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
- .text          0x0000000000000370        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
- .text          0x0000000000000370        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
- .text          0x0000000000000370        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
- .text          0x0000000000000370        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
- .text          0x0000000000000370        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
- .text          0x0000000000000370        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
+ .text          0x0000000000000370        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-exit.o)
+ .text          0x0000000000000370        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-impure.o)
+ .text          0x0000000000000370        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-init.o)
+ .text          0x0000000000000370        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-memset.o)
+ .text          0x0000000000000370        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-__call_atexit.o)
+ .text          0x0000000000000370        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-atexit.o)
+ .text          0x0000000000000370        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-fini.o)
+ .text          0x0000000000000370        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-lock.o)
+ .text          0x0000000000000370        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-__atexit.o)
  .text          0x0000000000000370        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
  .text          0x0000000000000370        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
  .text          0x0000000000000370        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
@@ -114,55 +114,55 @@ LOAD ./tm4c123gh6pge_startup_ccs_gcc.o
  .text.IntDefaultHandler
                 0x0000000000000488        0x6 ./tm4c123gh6pge_startup_ccs_gcc.o
  *fill*         0x000000000000048e        0x2 
- .text.exit     0x0000000000000490       0x20 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o)
+ .text.exit     0x0000000000000490       0x20 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-exit.o)
                 0x0000000000000490                exit
  .text.__libc_init_array
-                0x00000000000004b0       0x50 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
+                0x00000000000004b0       0x50 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-init.o)
                 0x00000000000004b0                __libc_init_array
- .text.memset   0x0000000000000500       0x9c /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
+ .text.memset   0x0000000000000500       0x9c /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-memset.o)
                 0x0000000000000500                memset
  .text.startup.register_fini
-                0x000000000000059c       0x14 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+                0x000000000000059c       0x14 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-__call_atexit.o)
  .text.__call_exitprocs
-                0x00000000000005b0       0xe8 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+                0x00000000000005b0       0xe8 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-__call_atexit.o)
                 0x00000000000005b0                __call_exitprocs
- .text.atexit   0x0000000000000698        0xc /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
+ .text.atexit   0x0000000000000698        0xc /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-atexit.o)
                 0x0000000000000698                atexit
  .text.__libc_fini_array
-                0x00000000000006a4       0x34 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
+                0x00000000000006a4       0x34 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-fini.o)
                 0x00000000000006a4                __libc_fini_array
  .text.__retarget_lock_init
-                0x00000000000006d8        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x00000000000006d8        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-lock.o)
                 0x00000000000006d8                __retarget_lock_init
  .text.__retarget_lock_init_recursive
-                0x00000000000006dc        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x00000000000006dc        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-lock.o)
                 0x00000000000006dc                __retarget_lock_init_recursive
  .text.__retarget_lock_close
-                0x00000000000006e0        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x00000000000006e0        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-lock.o)
                 0x00000000000006e0                __retarget_lock_close
  .text.__retarget_lock_close_recursive
-                0x00000000000006e4        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x00000000000006e4        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-lock.o)
                 0x00000000000006e4                __retarget_lock_close_recursive
  .text.__retarget_lock_acquire
-                0x00000000000006e8        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x00000000000006e8        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-lock.o)
                 0x00000000000006e8                __retarget_lock_acquire
  .text.__retarget_lock_acquire_recursive
-                0x00000000000006ec        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x00000000000006ec        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-lock.o)
                 0x00000000000006ec                __retarget_lock_acquire_recursive
  .text.__retarget_lock_try_acquire
-                0x00000000000006f0        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x00000000000006f0        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-lock.o)
                 0x00000000000006f0                __retarget_lock_try_acquire
  .text.__retarget_lock_try_acquire_recursive
-                0x00000000000006f4        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x00000000000006f4        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-lock.o)
                 0x00000000000006f4                __retarget_lock_try_acquire_recursive
  .text.__retarget_lock_release
-                0x00000000000006f8        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x00000000000006f8        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-lock.o)
                 0x00000000000006f8                __retarget_lock_release
  .text.__retarget_lock_release_recursive
-                0x00000000000006fc        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x00000000000006fc        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-lock.o)
                 0x00000000000006fc                __retarget_lock_release_recursive
  .text.__register_exitproc
-                0x0000000000000700       0xc4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
+                0x0000000000000700       0xc4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-__atexit.o)
                 0x0000000000000700                __register_exitproc
  .text._exit    0x00000000000007c4        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
                 0x00000000000007c4                _exit
@@ -175,7 +175,7 @@ LOAD ./tm4c123gh6pge_startup_ccs_gcc.o
  *(.init_array*)
  .init_array    0x00000000000007c8        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtbegin.o
  .init_array.00000
-                0x00000000000007cc        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+                0x00000000000007cc        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-__call_atexit.o)
                 0x00000000000007d0                __init_array_end = .
  *(.init)
  .init          0x00000000000007d0        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crti.o
@@ -209,7 +209,7 @@ LOAD ./tm4c123gh6pge_startup_ccs_gcc.o
  *(.rodata)
  *(.rodata*)
  .rodata._global_impure_ptr
-                0x00000000000007ec        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
+                0x00000000000007ec        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-impure.o)
                 0x00000000000007ec                _global_impure_ptr
 
 .eh_frame       0x00000000000007f0        0x4
@@ -227,26 +227,26 @@ LOAD ./tm4c123gh6pge_startup_ccs_gcc.o
  .data          0x0000000020000004        0x0 ./fib.o
  .data          0x0000000020000004        0x0 ./main.o
  .data          0x0000000020000004        0x0 ./tm4c123gh6pge_startup_ccs_gcc.o
- .data          0x0000000020000004        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o)
- .data          0x0000000020000004        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
- .data          0x0000000020000004        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
- .data          0x0000000020000004        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
- .data          0x0000000020000004        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
- .data          0x0000000020000004        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
- .data          0x0000000020000004        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
- .data          0x0000000020000004        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
- .data          0x0000000020000004        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
+ .data          0x0000000020000004        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-exit.o)
+ .data          0x0000000020000004        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-impure.o)
+ .data          0x0000000020000004        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-init.o)
+ .data          0x0000000020000004        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-memset.o)
+ .data          0x0000000020000004        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-__call_atexit.o)
+ .data          0x0000000020000004        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-atexit.o)
+ .data          0x0000000020000004        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-fini.o)
+ .data          0x0000000020000004        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-lock.o)
+ .data          0x0000000020000004        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-__atexit.o)
  .data          0x0000000020000004        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
  .data          0x0000000020000004        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
  .data          0x0000000020000004        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
  *(.data*)
  .data._impure_ptr
-                0x0000000020000004        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
+                0x0000000020000004        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-impure.o)
                 0x0000000020000004                _impure_ptr
  .data.impure_data
-                0x0000000020000008      0x428 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
+                0x0000000020000008      0x428 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-impure.o)
  .data.__atexit_recursive_mutex
-                0x0000000020000430        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+                0x0000000020000430        0x4 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-__call_atexit.o)
                 0x0000000020000430                __atexit_recursive_mutex
                 0x0000000020000434                . = ALIGN (0x4)
                 0x0000000020000434                __data_end__ = .
@@ -281,15 +281,15 @@ LOAD ./tm4c123gh6pge_startup_ccs_gcc.o
  .bss           0x0000000020000454        0x0 ./fib.o
  .bss           0x0000000020000454        0x0 ./main.o
  .bss           0x0000000020000454        0x0 ./tm4c123gh6pge_startup_ccs_gcc.o
- .bss           0x0000000020000454        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o)
- .bss           0x0000000020000454        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
- .bss           0x0000000020000454        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
- .bss           0x0000000020000454        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
- .bss           0x0000000020000454        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
- .bss           0x0000000020000454        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
- .bss           0x0000000020000454        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
- .bss           0x0000000020000454        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
- .bss           0x0000000020000454        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
+ .bss           0x0000000020000454        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-exit.o)
+ .bss           0x0000000020000454        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-impure.o)
+ .bss           0x0000000020000454        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-init.o)
+ .bss           0x0000000020000454        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-memset.o)
+ .bss           0x0000000020000454        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-__call_atexit.o)
+ .bss           0x0000000020000454        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-atexit.o)
+ .bss           0x0000000020000454        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-fini.o)
+ .bss           0x0000000020000454        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-lock.o)
+ .bss           0x0000000020000454        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-__atexit.o)
  .bss           0x0000000020000454        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
  .bss           0x0000000020000454        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtend.o
  .bss           0x0000000020000454        0x0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/crtn.o
@@ -297,7 +297,7 @@ LOAD ./tm4c123gh6pge_startup_ccs_gcc.o
  .bss.pui32Stack
                 0x0000000020000454      0x200 ./tm4c123gh6pge_startup_ccs_gcc.o
  *(COMMON)
- COMMON         0x0000000020000654       0x21 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+ COMMON         0x0000000020000654       0x21 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-lock.o)
                 0x0000000020000654                __lock___atexit_recursive_mutex
                 0x0000000020000658                __lock___arc4random_mutex
                 0x000000002000065c                __lock___env_recursive_mutex
@@ -324,6 +324,9 @@ LOAD ./tm4c123gh6pge_startup_ccs_gcc.o
                 0x0000000020000678                _stack = .
                 0x0000000020000678                __stack = .
  *(.stack)
+START GROUP
+LOAD /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a
+END GROUP
 START GROUP
 LOAD /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/thumb/v7e-m/fpv4-sp/hard/libgcc.a
 LOAD /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a
@@ -353,23 +356,23 @@ OUTPUT(Lab1.out elf32-littlearm)
  .ARM.attributes
                 0x00000000000000d4       0x39 ./tm4c123gh6pge_startup_ccs_gcc.o
  .ARM.attributes
-                0x000000000000010d       0x34 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o)
+                0x000000000000010d       0x34 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-exit.o)
  .ARM.attributes
-                0x0000000000000141       0x34 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-impure.o)
+                0x0000000000000141       0x34 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-impure.o)
  .ARM.attributes
-                0x0000000000000175       0x34 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
+                0x0000000000000175       0x34 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-init.o)
  .ARM.attributes
-                0x00000000000001a9       0x34 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
+                0x00000000000001a9       0x34 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-memset.o)
  .ARM.attributes
-                0x00000000000001dd       0x34 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
+                0x00000000000001dd       0x34 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-__call_atexit.o)
  .ARM.attributes
-                0x0000000000000211       0x34 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
+                0x0000000000000211       0x34 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-atexit.o)
  .ARM.attributes
-                0x0000000000000245       0x34 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
+                0x0000000000000245       0x34 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-fini.o)
  .ARM.attributes
-                0x0000000000000279       0x34 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
+                0x0000000000000279       0x34 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-lock.o)
  .ARM.attributes
-                0x00000000000002ad       0x34 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
+                0x00000000000002ad       0x34 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-__atexit.o)
  .ARM.attributes
                 0x00000000000002e1       0x34 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)
  .ARM.attributes
@@ -382,15 +385,15 @@ OUTPUT(Lab1.out elf32-littlearm)
                                          0x80 (size before relaxing)
  .comment       0x000000000000007f       0x80 ./tm4c123gh6pge_startup_ccs_gcc.o
 
-.debug_line     0x0000000000000000      0x22d
+.debug_line     0x0000000000000000      0x22f
  .debug_line    0x0000000000000000       0x44 ./fib.o
- .debug_line    0x0000000000000044       0x73 ./main.o
- .debug_line    0x00000000000000b7      0x176 ./tm4c123gh6pge_startup_ccs_gcc.o
+ .debug_line    0x0000000000000044       0x75 ./main.o
+ .debug_line    0x00000000000000b9      0x176 ./tm4c123gh6pge_startup_ccs_gcc.o
 
-.debug_info     0x0000000000000000      0x2cb
+.debug_info     0x0000000000000000      0x30a
  .debug_info    0x0000000000000000       0x64 ./fib.o
- .debug_info    0x0000000000000064       0xd3 ./main.o
- .debug_info    0x0000000000000137      0x194 ./tm4c123gh6pge_startup_ccs_gcc.o
+ .debug_info    0x0000000000000064      0x112 ./main.o
+ .debug_info    0x0000000000000176      0x194 ./tm4c123gh6pge_startup_ccs_gcc.o
 
 .debug_abbrev   0x0000000000000000      0x163
  .debug_abbrev  0x0000000000000000       0x14 ./fib.o
@@ -410,20 +413,20 @@ OUTPUT(Lab1.out elf32-littlearm)
  .debug_ranges  0x0000000000000028       0x28 ./tm4c123gh6pge_startup_ccs_gcc.o
 
 .debug_str      0x0000000000000000      0x265
- .debug_str     0x0000000000000000      0x145 ./main.o
-                                        0x150 (size before relaxing)
- .debug_str     0x0000000000000145      0x120 ./tm4c123gh6pge_startup_ccs_gcc.o
+ .debug_str     0x0000000000000000      0x195 ./main.o
+                                        0x1d4 (size before relaxing)
+ .debug_str     0x0000000000000195       0xd0 ./tm4c123gh6pge_startup_ccs_gcc.o
                                         0x26c (size before relaxing)
 
 .debug_frame    0x0000000000000000      0x358
  .debug_frame   0x0000000000000000       0xa0 ./main.o
  .debug_frame   0x00000000000000a0       0x7c ./tm4c123gh6pge_startup_ccs_gcc.o
- .debug_frame   0x000000000000011c       0x28 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-exit.o)
- .debug_frame   0x0000000000000144       0x2c /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-init.o)
- .debug_frame   0x0000000000000170       0x34 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-memset.o)
- .debug_frame   0x00000000000001a4       0x5c /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__call_atexit.o)
- .debug_frame   0x0000000000000200       0x20 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-atexit.o)
- .debug_frame   0x0000000000000220       0x34 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-fini.o)
- .debug_frame   0x0000000000000254       0xb0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-lock.o)
- .debug_frame   0x0000000000000304       0x34 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libg.a(lib_a-__atexit.o)
+ .debug_frame   0x000000000000011c       0x28 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-exit.o)
+ .debug_frame   0x0000000000000144       0x2c /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-init.o)
+ .debug_frame   0x0000000000000170       0x34 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-memset.o)
+ .debug_frame   0x00000000000001a4       0x5c /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-__call_atexit.o)
+ .debug_frame   0x0000000000000200       0x20 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-atexit.o)
+ .debug_frame   0x0000000000000220       0x34 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-fini.o)
+ .debug_frame   0x0000000000000254       0xb0 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-lock.o)
+ .debug_frame   0x0000000000000304       0x34 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libc.a(lib_a-__atexit.o)
  .debug_frame   0x0000000000000338       0x20 /home/aetas/ti/ccsv7/tools/compiler/gcc-arm-none-eabi-6-2017-q1-update/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m/fpv4-sp/hard/libnosys.a(_exit.o)

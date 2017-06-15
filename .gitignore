@@ -6,4 +6,4 @@
 #update: wildcards don't catch deeped directories
 .metadata
 .jxbrowser-data
-
+driverlib/
