@@ -1,1 +1,1 @@
-"./fib.o" "./main.o" "./tm4c123gh6pge_startup_ccs_gcc.o" -Wl,-T"../tm4c123gh6pge.lds" 
+"./fib.obj" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../tm4c123gh6pm.cmd" -llibc.a -l"/home/aetas/Downloads/tiva/driverlib/rvmdk/driverlib.lib" 

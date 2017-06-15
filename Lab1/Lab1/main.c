@@ -5,16 +5,16 @@
 #include <stdbool.h>
 #include <stdint.h>
 
-#include "C:\ti\TivaWare_C_Series-2.1.4.178\inc\hw_types.h"
-#include "C:\ti\TivaWare_C_Series-2.1.4.178\inc\hw_gpio.h"
-#include "C:\ti\TivaWare_C_Series-2.1.4.178\inc\hw_memmap.h"
-#include "C:\ti\TivaWare_C_Series-2.1.4.178\inc\hw_sysctl.h"
-#include "C:\ti\TivaWare_C_Series-2.1.4.178\driverlib\gpio.h"
-#include "C:\ti\TivaWare_C_Series-2.1.4.178\driverlib\rom.h"
-#include "C:\ti\TivaWare_C_Series-2.1.4.178\driverlib\sysctl.h"
-#include "C:\ti\TivaWare_C_Series-2.1.4.178\driverlib\pin_map.h"
-#include "C:\ti\TivaWare_C_Series-2.1.4.178\driverlib\can.h"
-#include "C:\ti\TivaWare_C_Series-2.1.4.178\driverlib\timer.h"
+#include "inc/hw_types.h"
+#include "inc/hw_gpio.h"
+#include "inc/hw_memmap.h"
+#include "inc/hw_sysctl.h"
+#include "driverlib/gpio.h"
+#include "driverlib/rom.h"
+#include "driverlib/sysctl.h"
+#include "driverlib/pin_map.h"
+#include "driverlib/can.h"
+#include "driverlib/timer.h"
 
 extern int fib(int n);
 void blink(char);
