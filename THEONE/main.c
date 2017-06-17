@@ -36,9 +36,7 @@ int main(void){
     //
     // Check if the peripheral access is enabled.
     //
-    while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOF))
-    {
-    }
+    while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOF)){}
 
 
     //
@@ -47,12 +45,12 @@ int main(void){
     //
     GPIOPinTypeGPIOOutput(GPIO_PORTF_BASE, RED_LED|BLUE_LED|GREEN_LED);
 
-
-    //int fib_number = fib(5);
-    int i;
+    morse_conversion(fib(7));
+    /*int i;
     for(i = 11; i < 20; i++){
         morse_conversion(i);
-    }
+        //morse_conversion(fib(i));
+    }*/
 
     return 0;
 }
@@ -63,59 +61,63 @@ void blink(char n) {
 
     uint8_t i;
     for(i = 0; i < 5; i++){
+        //char is read left-to-right (as all things should be)
+        //So start the bit mask on the left-most bit.
         mask = 0b10000;
-        //
-        // Turn on the LED.
-        //
-        mask = mask & n;
-        n = n << 1;
+        mask = mask & n;        //Mask out
+        n = n << 1;             //Shift the packaged char because left shift always 0-fills
+                                //avoids the issue of compiler-specific right shifts and uninitialized data. (even though mask is initialized)
         if (mask == 0b00000){  //1 corresponds to a dash, 0 is dot
             GPIOPinWrite(GPIO_PORTF_BASE, BLUE_LED, BLUE_LED);
-            for(ui32Loop = 0; ui32Loop < 400000; ui32Loop++){}
+            for(ui32Loop = 0; ui32Loop < 400000; ui32Loop++){}  //ghetto-delay loop
         }
-        else{
+        else{   //it's a 0b10000. (dash)
             GPIOPinWrite(GPIO_PORTF_BASE, GREEN_LED, GREEN_LED);
-            for(ui32Loop = 0; ui32Loop < 600000; ui32Loop++){}
+            for(ui32Loop = 0; ui32Loop < 800000; ui32Loop++){}  //ghetto-delay loop
         }
 
-        //
-        // Turn off the LED.
-        //
-        GPIOPinWrite(GPIO_PORTF_BASE, BLUE_LED|GREEN_LED, 0x0);
+        GPIOPinWrite(GPIO_PORTF_BASE, BLUE_LED|GREEN_LED, 0x0); //turn off LEDs
+        for(ui32Loop = 0; ui32Loop < 600000; ui32Loop++){}      //delay between blinks
 
-        //
-        // Delay for a bit.
-        //
-        for(ui32Loop = 0; ui32Loop < 200000; ui32Loop++){}
     }
-    GPIOPinWrite(GPIO_PORTF_BASE, RED_LED, RED_LED);
+    //Single red is for the end of a single number having finished it's morse-output
+    //i.e. 1 or the 3 from 32, etc.
+    GPIOPinWrite(GPIO_PORTF_BASE, RED_LED, RED_LED);    //turn on LED
     for(ui32Loop = 0; ui32Loop < 800000; ui32Loop++){}
-    GPIOPinWrite(GPIO_PORTF_BASE, RED_LED, 0x0);
-    for(ui32Loop = 0; ui32Loop < 800000; ui32Loop++){}
-    if(flag){
+    GPIOPinWrite(GPIO_PORTF_BASE, RED_LED, 0x0);        //turn off LED
+    for(ui32Loop = 0; ui32Loop < 800000; ui32Loop++){}  //ghetto-delay
+    //Checks if the entire number has been displayed.
+    //i.e. 3 AND 2 from 32.
+    if(flag){   //flag is set in morse_conversion() if all of a number has been packaged and sent off
         GPIOPinWrite(GPIO_PORTF_BASE, RED_LED, RED_LED);
-        for(ui32Loop = 0; ui32Loop < 800000; ui32Loop++){}
+        for(ui32Loop = 0; ui32Loop < 800000; ui32Loop++){}  //ghetto-delay
     }
     GPIOPinWrite(GPIO_PORTF_BASE, RED_LED, 0x0);
-    for(ui32Loop = 0; ui32Loop < 1000000; ui32Loop++){}
+    for(ui32Loop = 0; ui32Loop < 800000; ui32Loop++){}     //ghetto-delay
 }
 
-//come back to type. Will probably pass back array.
- //Depends on blink impl.
+//Takes in a int (conveniently the one passed back from fib().)
+//converts it to single-digit numbers as chars
+//sends it to package_blink() to convert to a morse-code char
+
 void morse_conversion(int n){
     //takes in number, converts to array of bases.
     flag = 0;   //flag is 1 when loop is complete. All numbers packaged. (i.e. 123 -> 1, 2, 3)
-    int mod;
+    char mod;
     while(n != 0){
         mod = n % 10;
-        package_blink(mod); //note that this code might overwrite itself as one runs full-tilt and the morse output is timed.
         n = (n - mod)/10;
+        flag = n == 0 ? 1 : 0;  //sets global flag before sending off control to package_blink() and blink()
+        package_blink(mod);
     }
-    flag = 1;
 }
 
+//converts numbers to 5-bit (technically in chars) coded morse representations
+//Sends result off to blink() for actual LED output in morse code
 void package_blink(char n){
-    /*  coded_n = 0b11111;
+    //Abuses 0-fill to shift in the associated amount of 0's for morse output.
+    /*
+    char coded_n = 0b011111;
         if(n <= 5)
         coded_n = coded_n << (n-5);
     else
