@@ -25,3 +25,9 @@ deepah:
 	pop {pc, r4, r3}
 
 	;should do the trick.
+
+;input is r0
+;output is r0.
+;seems like a pain.
+fib:
+
