@@ -3,3 +3,7 @@
 .metadata/.plugins/*
 .metadata/version.ini
 .metadata/.lock
+#update: wildcards don't catch deeped directories
+.metadata
+.jxbrowser-data
+
