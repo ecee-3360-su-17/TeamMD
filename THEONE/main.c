@@ -5,16 +5,16 @@
 #include <stdbool.h>
 #include <stdint.h>
 
-#include "inc/hw_types.h"
-#include "inc/hw_gpio.h"
+//#include "inc/hw_types.h"
+//#include "inc/hw_gpio.h"
 #include "inc/hw_memmap.h"
-#include "inc/hw_sysctl.h"
+//#include "inc/hw_sysctl.h"
 #include "driverlib/gpio.h"
-#include "driverlib/rom.h"
+//#include "driverlib/rom.h"
 #include "driverlib/sysctl.h"
-#include "driverlib/pin_map.h"
-#include "driverlib/can.h"
-#include "driverlib/timer.h"
+//#include "driverlib/pin_map.h"
+//#include "driverlib/can.h"
+//#include "driverlib/timer.h"
 
 #define RED_LED GPIO_PIN_1
 #define BLUE_LED GPIO_PIN_2
@@ -45,7 +45,9 @@ int main(void){
     //
     GPIOPinTypeGPIOOutput(GPIO_PORTF_BASE, RED_LED|BLUE_LED|GREEN_LED);
 
-    morse_conversion(fib(7));
+    int fib_n;
+    fib_n = fib(3);
+    morse_conversion(fib_n);
     /*int i;
     for(i = 11; i < 20; i++){
         morse_conversion(i);
@@ -67,7 +69,7 @@ void blink(char n) {
         mask = mask & n;        //Mask out
         n = n << 1;             //Shift the packaged char because left shift always 0-fills
                                 //avoids the issue of compiler-specific right shifts and uninitialized data. (even though mask is initialized)
-        if (mask == 0b00000){  //1 corresponds to a dash, 0 is dot
+        if (mask == 0b00000){  //1 corresponds to a dash (green), 0 is dot (blue)
             GPIOPinWrite(GPIO_PORTF_BASE, BLUE_LED, BLUE_LED);
             for(ui32Loop = 0; ui32Loop < 400000; ui32Loop++){}  //ghetto-delay loop
         }
@@ -104,11 +106,19 @@ void morse_conversion(int n){
     //takes in number, converts to array of bases.
     flag = 0;   //flag is 1 when loop is complete. All numbers packaged. (i.e. 123 -> 1, 2, 3)
     char mod;
+    char mod_array[6];
+    int i = 0;
     while(n != 0){
         mod = n % 10;
+        mod_array[i] = mod;
+        i++;
         n = (n - mod)/10;
-        flag = n == 0 ? 1 : 0;  //sets global flag before sending off control to package_blink() and blink()
-        package_blink(mod);
+        //flag = n == 0 ? 1 : 0;  //sets global flag before sending off control to package_blink() and blink()
+        //package_blink(mod);
+    }
+    while(i > 0){   //ghetto and sad offset loop.
+        flag = i == 1 ? 1 : 0;
+        package_blink(mod_array[i-1]);
     }
 }
 
@@ -116,16 +126,17 @@ void morse_conversion(int n){
 //Sends result off to blink() for actual LED output in morse code
 void package_blink(char n){
     //Abuses 0-fill to shift in the associated amount of 0's for morse output.
-    /*
-    char coded_n = 0b011111;
-        if(n <= 5)
-        coded_n = coded_n << (n-5);
-    else
+/*  char coded_n = 0b011111;
+    if(n <= 5){
+        coded_n = coded_n << (5-n);
+    }
+    else{
         coded_n = coded_n >> n;
+    }
     blink(coded_n);*/
-        switch(n){
-        case 0:
-            n = 0b11111;
+    switch(n){
+    case 0:
+        n = 0b11111;
             break;
         case 1:
             n = 0b01111;
