@@ -11,7 +11,7 @@
 ;you don't need the 0th fib number because it is 0. Adds nothing to the sum.
 ;climb back up the frames while summing the numbers until the last frame where it completes.
 fib:
-	push {lr}				;this has to be here in case n < 2.
+	push {lr}			;this has to be here in case n < 2.
 	cmp r0, #1
 	bgt deeper			;break if n > 1. Have to choose 1 so that fib(1) doesn't return 2.
 

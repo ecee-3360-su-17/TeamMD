@@ -54,6 +54,7 @@ int main(void){
         //morse_conversion(fib(i));
     }*/
 
+    while(1){}  //Just keep going, buddy.
     return 0;
 }
 
@@ -101,24 +102,22 @@ void blink(char n) {
 //Takes in a int (conveniently the one passed back from fib().)
 //converts it to single-digit numbers as chars
 //sends it to package_blink() to convert to a morse-code char
-
 void morse_conversion(int n){
     //takes in number, converts to array of bases.
     flag = 0;   //flag is 1 when loop is complete. All numbers packaged. (i.e. 123 -> 1, 2, 3)
     char mod;
-    char mod_array[6];
+    char mod_array[6] = {0,0,0,0,0,0};
     int i = 0;
     while(n != 0){
         mod = n % 10;
         mod_array[i] = mod;
         i++;
         n = (n - mod)/10;
-        //flag = n == 0 ? 1 : 0;  //sets global flag before sending off control to package_blink() and blink()
-        //package_blink(mod);
     }
     while(i > 0){   //ghetto and sad offset loop.
         flag = i == 1 ? 1 : 0;
         package_blink(mod_array[i-1]);
+        i--;
     }
 }
 
