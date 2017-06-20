@@ -5,16 +5,9 @@
 #include <stdbool.h>
 #include <stdint.h>
 
-//#include "inc/hw_types.h"
-//#include "inc/hw_gpio.h"
 #include "inc/hw_memmap.h"
-//#include "inc/hw_sysctl.h"
 #include "driverlib/gpio.h"
-//#include "driverlib/rom.h"
 #include "driverlib/sysctl.h"
-//#include "driverlib/pin_map.h"
-//#include "driverlib/can.h"
-//#include "driverlib/timer.h"
 
 #define RED_LED GPIO_PIN_1
 #define BLUE_LED GPIO_PIN_2
@@ -38,7 +31,6 @@ int main(void){
     //
     while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOF)){}
 
-
     //
     // Enable the GPIO pin for the LED (PF3).  Set the direction as output, and
     // enable the GPIO pin for digital function.
@@ -46,7 +38,7 @@ int main(void){
     GPIOPinTypeGPIOOutput(GPIO_PORTF_BASE, RED_LED|BLUE_LED|GREEN_LED);
 
     int fib_n;
-    fib_n = fib(3);
+    fib_n = fib(12);
     morse_conversion(fib_n);
     /*int i;
     for(i = 11; i < 20; i++){
