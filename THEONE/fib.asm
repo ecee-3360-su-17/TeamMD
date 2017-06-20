@@ -12,7 +12,7 @@
 ;climb back up the frames while summing the numbers until the last frame where it completes.
 fib:
 	push {lr}			;this has to be here in case n < 2.
-	cmp r0, #2
+	cmp r0, #2			;using a 0th fib number, so have to halt at #2. n-2 doesn't exist at 1.
 	bgt deeper			;break if n > 1. Have to choose 1 so that fib(1) doesn't return 2.
 
 	;initials
@@ -25,12 +25,12 @@ sum:					;phase two of le alg.
 	mov r2, r1			;set up n-2 for next iteration
 	mov r1, r0			;set up n-1 for next iteration
 
-	pop {pc}			;have to do this so I can push n-1, n-2 onto stack before moving lr into pc
+	pop {pc}			;pop lr into pc (ret)
 
 
 deeper:
-	sub r0, r0, #1	;could possibly be #2 instead. Would need to investigate what happens when you overshoot. a little up/down climb action might be needed
-	bl fib					;Need to have something after for when the bottom is hit.
+	sub r0, r0, #1		;could possibly be #2 instead. Would need to investigate what happens when you overshoot. a little up/down climb action might be needed
+	bl fib				;Need to have something after for when the bottom is hit.
 	;returns here after reaching the bottom of the chain.
 	b sum
 
