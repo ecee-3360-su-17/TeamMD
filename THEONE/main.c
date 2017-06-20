@@ -5,16 +5,9 @@
 #include <stdbool.h>
 #include <stdint.h>
 
-//#include "inc/hw_types.h"
-//#include "inc/hw_gpio.h"
 #include "inc/hw_memmap.h"
-//#include "inc/hw_sysctl.h"
 #include "driverlib/gpio.h"
-//#include "driverlib/rom.h"
 #include "driverlib/sysctl.h"
-//#include "driverlib/pin_map.h"
-//#include "driverlib/can.h"
-//#include "driverlib/timer.h"
 
 #define RED_LED GPIO_PIN_1
 #define BLUE_LED GPIO_PIN_2
@@ -38,7 +31,6 @@ int main(void){
     //
     while(!SysCtlPeripheralReady(SYSCTL_PERIPH_GPIOF)){}
 
-
     //
     // Enable the GPIO pin for the LED (PF3).  Set the direction as output, and
     // enable the GPIO pin for digital function.
@@ -46,7 +38,7 @@ int main(void){
     GPIOPinTypeGPIOOutput(GPIO_PORTF_BASE, RED_LED|BLUE_LED|GREEN_LED);
 
     int fib_n;
-    fib_n = fib(3);
+    fib_n = fib(12);
     morse_conversion(fib_n);
     /*int i;
     for(i = 11; i < 20; i++){
@@ -54,6 +46,7 @@ int main(void){
         //morse_conversion(fib(i));
     }*/
 
+    while(1){}  //Just keep going, buddy.
     return 0;
 }
 
@@ -101,24 +94,22 @@ void blink(char n) {
 //Takes in a int (conveniently the one passed back from fib().)
 //converts it to single-digit numbers as chars
 //sends it to package_blink() to convert to a morse-code char
-
 void morse_conversion(int n){
     //takes in number, converts to array of bases.
     flag = 0;   //flag is 1 when loop is complete. All numbers packaged. (i.e. 123 -> 1, 2, 3)
     char mod;
-    char mod_array[6];
+    char mod_array[6] = {0,0,0,0,0,0};
     int i = 0;
     while(n != 0){
         mod = n % 10;
         mod_array[i] = mod;
         i++;
         n = (n - mod)/10;
-        //flag = n == 0 ? 1 : 0;  //sets global flag before sending off control to package_blink() and blink()
-        //package_blink(mod);
     }
     while(i > 0){   //ghetto and sad offset loop.
         flag = i == 1 ? 1 : 0;
         package_blink(mod_array[i-1]);
+        i--;
     }
 }
 
