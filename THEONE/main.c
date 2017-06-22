@@ -38,7 +38,7 @@ int main(void){
     GPIOPinTypeGPIOOutput(GPIO_PORTF_BASE, RED_LED|BLUE_LED|GREEN_LED);
 
     int fib_n;
-    fib_n = fib(12);
+    fib_n = fib(7);
     morse_conversion(fib_n);
     /*int i;
     for(i = 11; i < 20; i++){
